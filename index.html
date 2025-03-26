@@ -23,7 +23,25 @@
     </main>
     <footer>
   <img src="https://shorturl.at/ueki5" alt="kermit dancing">
-        <p>Thank you for reading my kermit the frog dancing website </p>
+        <p>Thank you for reading my kermit the frog dancing website </p> 
+        
+        
+        
+       <Force a mobile view on any screen */
+body {
+    transform: scale(0.7); /* Shrink everything */
+    transform-origin: top left;
+    width: 142.85%; /* Compensate for shrinkage */
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    body {
+        transform: none;
+        width: auto;
+    }
+}
+
     </footer>
 </body>
 </html>
