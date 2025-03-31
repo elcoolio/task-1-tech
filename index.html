@@ -1,47 +1,44 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ethans kermit the frog website</title>
+    <title>Ethan's Kermit the Frog Website</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body> 
-    
-    <div class="container">
-    
-        <button class="btn" onclick="alert('kermit says thank you')">Click this button if you think Kermits dance moves are awesome</button>
-        <h2>Kermit the frogs dance moves</h2>
-        
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#moves">Dance Moves</a>
+        <a href="#about">About</a>
     </div>
-    <footer> </footer>
-    <header>
-   <h1>navigation bar</h1>
-    </header>
-    <main>
-        <p></p>
-    </main>
+
+    <!-- Home Section -->
+    <div id="home" class="container">
+        <h1>Welcome to Ethan's Kermit the Frog Dance Page!</h1>
+        <button class="btn" onclick="alert('Kermit says thank you!')">Click if you think Kermit's dance moves are awesome</button>
+    </div>
+
+    <!-- Dance Moves Section -->
+    <div id="moves" class="container">
+        <h2>Kermit's Dance Moves</h2>
+        <p>Kermit has some legendary dance moves, from his classic arm flailing to his smooth jazz steps.</p>
+        <div class="image-container">
+            <img class="responsive-img" src="https://shorturl.at/ueki5" alt="Kermit dancing">
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container">
+        <h2>About This Page</h2>
+        <p>This website is dedicated to Kermit's incredible dancing skills and his impact on pop culture.</p>
+    </div>
+
+    <!-- Footer -->
     <footer>
-  <img src="https://shorturl.at/ueki5" alt="kermit dancing">
-        <p>Thank you for reading my kermit the frog dancing website </p> 
-        
-        
-        
-       <Force a mobile view on any screen */
-body {
-    transform: scale(0.7); /* Shrink everything */
-    transform-origin: top left;
-    width: 142.85%; /* Compensate for shrinkage */
-    overflow-x: hidden;
-}
-
-@media (max-width: 768px) {
-    body {
-        transform: none;
-        width: auto;
-    }
-}
-
+        <p>Thank you for reading my Kermit the Frog dancing website!</p>
     </footer>
+
 </body>
 </html>
